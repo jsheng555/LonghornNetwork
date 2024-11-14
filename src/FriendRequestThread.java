@@ -3,6 +3,9 @@ public class FriendRequestThread implements Runnable {
         // Constructor
     }
 
+    /**
+     * What to do when the thread is run
+     */
     @Override
     public void run() {
         // Method signature only

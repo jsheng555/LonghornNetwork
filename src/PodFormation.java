@@ -1,5 +1,8 @@
 import java.util.*;
 
+/**
+ * Partitions students into pods
+ */
 public class PodFormation {
 
     // This line is my code

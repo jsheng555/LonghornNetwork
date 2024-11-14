@@ -1,6 +1,9 @@
 import java.io.*;
 import java.util.*;
 
+/**
+ * Reads in the Student data from the input file and parses them into a List
+ */
 public class DataParser {
     /**
      * Parses the Students that are input

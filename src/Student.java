@@ -1,5 +1,8 @@
 import java.util.*;
 
+/**
+ * The abstract class for the Student. Defines several fields and an abstract method.
+ */
 public abstract class Student {
     protected String name;
     protected int age;

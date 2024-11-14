@@ -1,6 +1,9 @@
 import java.io.IOException;
 import java.util.*;
 
+/**
+ * The main class. Program starts running here.
+ */
 public class Main {
     public static void main(String[] args) {
         if (args.length == 0) {

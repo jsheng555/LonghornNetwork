@@ -1,5 +1,8 @@
 import java.util.*;
 
+/**
+ * The concrete class of a UniversityStudent that can be instantiated to make Student objects.
+ */
 public class UniversityStudent extends Student {
     // TODO: Constructor and additional methods to be implemented
 

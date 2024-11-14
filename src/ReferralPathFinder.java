@@ -1,5 +1,9 @@
 import java.util.*;
 
+/**
+ * Uses Dijkstra's algorithm to find the shortest weighted path for a student trying to
+ * get a referral at a given company
+ */
 public class ReferralPathFinder {
     public ReferralPathFinder(StudentGraph graph) {
         // Constructor

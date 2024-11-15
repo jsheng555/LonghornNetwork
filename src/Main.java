@@ -13,6 +13,7 @@ public class Main {
         String inputFile = args[0];
         try {
             List<UniversityStudent> students = DataParser.parseStudents(inputFile);
+            for (UniversityStudent x : students) System.out.println(x);
 
             // Roommate matching
             GaleShapley.assignRoommates(students);

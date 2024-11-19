@@ -1,9 +1,6 @@
 import java.io.IOException;
 import java.util.*;
 
-/**
- * The main class. Program starts running here.
- */
 public class Main {
     public static void main(String[] args) {
         if (args.length == 0) {
@@ -13,7 +10,6 @@ public class Main {
         String inputFile = args[0];
         try {
             List<UniversityStudent> students = DataParser.parseStudents(inputFile);
-            for (UniversityStudent x : students) System.out.println(x);
 
             // Roommate matching
             GaleShapley.assignRoommates(students);
